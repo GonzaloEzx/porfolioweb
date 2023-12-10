@@ -1,0 +1,54 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header,
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    margin-bottom: 1em;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Estilos de la sección principal */
+main {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+/* Estilos específicos de secciones */
+#bienvenida {
+    text-align: center;
+}
+
+#proyectos h2,
+#contacto h2 {
+    border-bottom: 2px solid #222;
+    padding-bottom: 0.5em;
+}
+
+/* Estilos para el footer */
+footer p {
+    margin: 0;
+}

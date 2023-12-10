@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tu Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button id="botonMenu">Menú</button>
+        <ul id="menu">
+          <li><a href="#bienvenida">Inicio</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Sección de bienvenida -->
+      <section id="bienvenida">
+        <h1>Bienvenido a mi Portfolio</h1>
+        <p>Esta es una breve introducción sobre ti y tu trabajo.</p>
+      </section>
+
+      <!-- Sección de proyectos -->
+      <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <!-- Aquí puedes mostrar tus proyectos con descripciones, imágenes, etc. -->
+      </section>
+
+      <!-- Sección de contacto -->
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <form id="formularioContacto">
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+            required
+          />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Tu correo electrónico"
+            required
+          />
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            placeholder="Tu mensaje"
+            required
+          ></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Derechos reservados - Tu Nombre - Año</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
